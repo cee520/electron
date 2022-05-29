@@ -119,8 +119,8 @@ T = 1000mAh / 20µA = 50,000h = 2083天= 5.7年
 
 n the fundamentals of MyProduct to get a deeper understanding of our main features:
 
-{% content-ref url="fundamentals/projects.md" %}
-[projects.md](fundamentals/projects.md)
+{% content-ref url="fundamentals/esp.md" %}
+[esp.md](fundamentals/esp.md)
 {% endcontent-ref %}
 
 {% content-ref url="fundamentals/members.md" %}
