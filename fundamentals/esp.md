@@ -15,11 +15,11 @@ MacOS
 ```
 sudo easy_install pip
 brew install cmake ninja dfu-util
-git clone --recursive https://github.com/espressif/esp-idf.git
+git clone --recursive https://github.com/espressif/esp-idf.git -b v4.4.1
 
 cd ~/esp/esp-idf
 ./install.sh <esp32 esp32s2> #setup  tools
-. $HOME/esp/esp-idf/export.sh    #setup enviroment 
+source $HOME/esp/esp-idf/export.sh    #setup enviroment 
 ```
 
 下载错误就用wget手动下载&#x20;
