@@ -117,7 +117,13 @@ T = 1000mAh / 20µA = 50,000h = 2083天= 5.7年
 
 ![](<.gitbook/assets/截屏2022-05-25 17.51.26.png>)
 
-n the fundamentals of MyProduct to get a deeper understanding of our main features:
+CDC - Compact Disk Charger 多碟光盘机
+
+\+Ub - +12V
+
+CODE 解码
+
+
 
 {% content-ref url="fundamentals/esp.md" %}
 [esp.md](fundamentals/esp.md)
