@@ -24,6 +24,18 @@ source $HOME/esp/esp-idf/export.sh    #setup enviroment
 
 下载错误就用wget手动下载&#x20;
 
+## 呼吸灯
+
+
+
+## 中断按键
+
+{% embed url="https://blog.csdn.net/qq_38113006/article/details/105450618" %}
+参考
+{% endembed %}
+
+{% embed url="https://blog.csdn.net/qq_38113006/article/details/105475390" %}
+
 ## HomeKit实验
 
 [https://github.com/espressif/esp-apple-homekit-adk](https://github.com/espressif/esp-apple-homekit-adk)
