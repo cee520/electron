@@ -5,24 +5,22 @@
 ## Guides
 
 * [Creating your first project](guides/creating-your-first-project.md)
-* [Creating your first task](guides/creating-your-first-task.md)
 * [Advanced permissions](guides/advanced-permissions.md)
 
 ## Fundamentals
 
 * [ESP](fundamentals/esp.md)
-* [斯科达](fundamentals/si-ke-da.md)
 * [Task Lists](fundamentals/task-lists.md)
-* [Tasks](fundamentals/tasks.md)
 
 ## Use Cases
 
-* [For Designers](use-cases/for-designers/README.md)
-  * [Figma Integration](use-cases/for-designers/figma-integration.md)
+* [HomeKit实验](use-cases/homekit-shi-yan/README.md)
+  * [Figma Integration](use-cases/homekit-shi-yan/figma-integration.md)
 * [For Engineers](use-cases/for-engineers/README.md)
   * [GitHub Integration](use-cases/for-engineers/github-integration.md)
 * [For Support](use-cases/for-support/README.md)
   * [Intercom Integration](use-cases/for-support/intercom-integration.md)
+* [斯科达](use-cases/si-ke-da.md)
 
 ## Extras
 

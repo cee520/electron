@@ -1,18 +1,10 @@
 # 电子实验
 
-{% hint style="info" %}
-**Good to know:** providing a brief overview of your product and its core use cases is a great place to start with product docs. Your product might seem obvious to you – you made it! However, to others, even folks who are trying your product after reading your site or getting a sales demo, it can still be unclear. This is your chance to clarify your product and set the right expectations!
-{% endhint %}
-
-Apple HomeKit
+## Apple HomeKit
 
 [https://github.com/RavenSystem/esp-homekit-devices/wiki](https://github.com/RavenSystem/esp-homekit-devices/wiki)&#x20;
 
-> Loom is a video messaging tool that helps you get your message across through instantly shareable videos.
 >
-> With Loom, you can record your camera, microphone, and desktop simultaneously. Your video is then instantly available to share through Loom's patented technology.
->
-> — From the [Loom Docs](https://support.loom.com/hc/en-us/articles/360002158057-What-is-Loom-)
 
 ## MCU对比
 
@@ -101,8 +93,8 @@ T = 1000mAh / 20µA = 50,000h = 2083天= 5.7年
 [creating-your-first-project.md](guides/creating-your-first-project.md)
 {% endcontent-ref %}
 
-{% content-ref url="guides/creating-your-first-task.md" %}
-[creating-your-first-task.md](guides/creating-your-first-task.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="guides/advanced-permissions.md" %}
@@ -129,18 +121,6 @@ CODE 解码
 [esp.md](fundamentals/esp.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/si-ke-da.md" %}
-[si-ke-da.md](fundamentals/si-ke-da.md)
+{% content-ref url="use-cases/si-ke-da.md" %}
+[si-ke-da.md](use-cases/si-ke-da.md)
 {% endcontent-ref %}
-
-{% content-ref url="fundamentals/task-lists.md" %}
-[task-lists.md](fundamentals/task-lists.md)
-{% endcontent-ref %}
-
-{% content-ref url="fundamentals/tasks.md" %}
-[tasks.md](fundamentals/tasks.md)
-{% endcontent-ref %}
-
-{% hint style="info" %}
-**Good to know:** Splitting your product into fundamental concepts, objects, or areas can be a great way to let readers deep dive into the concepts that matter most to them. Combine guides with this approach to 'fundamentals' and you're well on your way to great documentation!
-{% endhint %}

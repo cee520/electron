@@ -1,42 +1,10 @@
-# ESP
+# HomeKit实验
 
 {% hint style="info" %}
-**乐鑫芯片**
+**Good to know:** depending on the product you're building, it can be useful to explicitly document use cases. Got a product that can be used by a bunch of people in different ways? Maybe consider splitting it out!
 {% endhint %}
 
-## 环境搭建
-
-参考[https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/linux-macos-setup.html](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/linux-macos-setup.html)
-
-
-
-MacOS
-
-```
-sudo easy_install pip
-brew install cmake ninja dfu-util
-git clone --recursive https://github.com/espressif/esp-idf.git -b v4.4.1
-
-cd ~/esp/esp-idf
-./install.sh <esp32 esp32s2> #setup  tools
-source $HOME/esp/esp-idf/export.sh    #setup enviroment 
-```
-
-下载错误就用wget手动下载&#x20;
-
-## 呼吸灯
-
-
-
-## 中断按键
-
-{% embed url="https://blog.csdn.net/qq_38113006/article/details/105450618" %}
-参考
-{% endembed %}
-
-{% embed url="https://blog.csdn.net/qq_38113006/article/details/105475390" %}
-
-## HomeKit实验
+## 32
 
 [https://github.com/espressif/esp-apple-homekit-adk](https://github.com/espressif/esp-apple-homekit-adk)
 

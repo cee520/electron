@@ -43,5 +43,5 @@
 接ABS泵的红色耐高温线需要拆手套箱。走手套箱后面的预留孔位，进入发动机仓并套上耐高温波纹管。
 
 {% hint style="info" %}
-**Good to know:** Splitting your product into fundamental concepts, objects, or areas can be a great way to let readers deep dive into the concepts that matter most to them.
+****
 {% endhint %}
