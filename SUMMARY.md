@@ -2,25 +2,25 @@
 
 * [电子实验](README.md)
 
-## Guides
+## 指南
 
-* [Creating your first project](guides/creating-your-first-project.md)
-* [Advanced permissions](guides/advanced-permissions.md)
+* [Creating your first project](zhi-nan/creating-your-first-project.md)
+* [Advanced permissions](zhi-nan/advanced-permissions.md)
 
-## Fundamentals
+## 基础知识
 
-* [ESP](fundamentals/esp.md)
-* [Task Lists](fundamentals/task-lists.md)
+* [ESP](ji-chu-zhi-shi/esp.md)
+* [Task Lists](ji-chu-zhi-shi/task-lists.md)
 
-## Use Cases
+## 用例
 
-* [HomeKit实验](use-cases/homekit-shi-yan/README.md)
-  * [Figma Integration](use-cases/homekit-shi-yan/figma-integration.md)
-* [For Engineers](use-cases/for-engineers/README.md)
-  * [GitHub Integration](use-cases/for-engineers/github-integration.md)
-* [For Support](use-cases/for-support/README.md)
-  * [Intercom Integration](use-cases/for-support/intercom-integration.md)
-* [斯科达](use-cases/si-ke-da.md)
+* [HomeKit实验](yong-li/homekit-shi-yan/README.md)
+  * [Figma Integration](yong-li/homekit-shi-yan/figma-integration.md)
+* [For Engineers](yong-li/for-engineers/README.md)
+  * [GitHub Integration](yong-li/for-engineers/github-integration.md)
+* [For Support](yong-li/for-support/README.md)
+  * [Intercom Integration](yong-li/for-support/intercom-integration.md)
+* [斯科达](yong-li/si-ke-da.md)
 
 ## Extras
 

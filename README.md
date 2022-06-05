@@ -89,16 +89,16 @@ T = 1000mAh / 20µA = 50,000h = 2083天= 5.7年
 
 下面图片显示了如何在深度睡眠阶段之后将D0引脚与RST连接以唤醒ESP8266 NodeMCU和WeMos D1 Mini微控制器。
 
-{% content-ref url="guides/creating-your-first-project.md" %}
-[creating-your-first-project.md](guides/creating-your-first-project.md)
+{% content-ref url="zhi-nan/creating-your-first-project.md" %}
+[creating-your-first-project.md](zhi-nan/creating-your-first-project.md)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="guides/advanced-permissions.md" %}
-[advanced-permissions.md](guides/advanced-permissions.md)
+{% content-ref url="zhi-nan/advanced-permissions.md" %}
+[advanced-permissions.md](zhi-nan/advanced-permissions.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
@@ -117,10 +117,10 @@ CODE 解码
 
 
 
-{% content-ref url="fundamentals/esp.md" %}
-[esp.md](fundamentals/esp.md)
+{% content-ref url="ji-chu-zhi-shi/esp.md" %}
+[esp.md](ji-chu-zhi-shi/esp.md)
 {% endcontent-ref %}
 
-{% content-ref url="use-cases/si-ke-da.md" %}
-[si-ke-da.md](use-cases/si-ke-da.md)
+{% content-ref url="yong-li/si-ke-da.md" %}
+[si-ke-da.md](yong-li/si-ke-da.md)
 {% endcontent-ref %}
