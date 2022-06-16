@@ -24,6 +24,16 @@ source $HOME/esp/esp-idf/export.sh    #setup enviroment
 
 下载错误就用wget手动下载&#x20;
 
+Windows
+
+```
+#powershell
+./install.ps1
+./export.ps1
+
+$env:ESPPORT=COM3
+```
+
 ## 呼吸灯
 
 
@@ -79,3 +89,32 @@ $ esptool.py -p $ESPPORT erase_region 0x10000 0x6000
 例子：[https://github.com/HanChenen/esp32-homekit](https://github.com/HanChenen/esp32-homekit)&#x20;
 
 hap.h是重中之重。 它含有三个枚举、两个结构体和若干个函数。这三个枚举分别是配件、服务和特性。配件类型有19个，有开关、风扇和车库等等。服务有35个，相比于配件就划分的更细了，主要是对传感器做了更多的扩展。特性有106个，有名字，状态，大小等等。这三者的关系是配件>服务>特性，比如SWITCH例程中的注册流程是这样的，首先注册一个HAP\_ACCESSORY\_CATEGORY\_OTHER附件，然后再给其添加服务类型HAP\_SERVICE\_ACCESSORY\_INFORMATION和HAP\_SERVICE\_SWITCHS，第一个服务类型是配件信息，用来说明一些必要的产品信息，如生产商，型号，版本号等等，总共六项，这六项就是第三个枚举中列出的特性；第二个是开关服务，开关只用了一个特性来描述，主要描述开关状态。 我们回到hap.h文件中来，继续看结构体。&#x20;
+
+ESP32 能耗
+
+deepsleep 12mA,GIPO推挽电流40mA  &#x20;
+
+| 状态            |    能耗 |    功率 |
+| ------------- | ----: | ----: |
+| Deep Sleep    |  12mA | 0.06W |
+| wifi search   | 120mA |       |
+| WiFi 稳定工作     |  40mA |       |
+| AOD4184关 LED  | 0.8mA |       |
+| AOD4184关 100欧 |   2mA |       |
+| AOD4184开 LED  |  16mA |       |
+|               |       |       |
+|               |       |       |
+
+AOD4184 d极串LED+100欧，
+
+先电阻后Led&#x20;
+
+5V->1K 4.61V-> Led 1.8V->NMOSds 0V, led 0.1mA pass 2mA
+
+5V->NMOSdg 1.38V ->47K->0V
+
+先Led后电阻
+
+5V->Led 3.1V->1K 1.6V->NMOSds 0V
+
+5V->NMOSdg->1.52V->10K->0V
