@@ -115,6 +115,8 @@ CDC - Compact Disk Charger 多碟光盘机
 
 CODE 解码
 
+打开车钥匙到on档时can+ 有 0.6V，can-有0.4V，关闭时CAN+有0.4V，CAN-会延时1秒到11.5V。
+
 
 
 {% content-ref url="ji-chu-zhi-shi/esp.md" %}
