@@ -57,3 +57,14 @@
 {% hint style="info" %}
 ****
 {% endhint %}
+
+ESP32 控制器
+
+```
+      1   2   3          1-12V input
+      ▪   ▪   ▪          2- 5V  output
+      ▪   ▪   ▪          3- GPIO 27 ->NMOS 444->  接GND(12V有LED接12V)
+      4   5   6          4- GND
+                         5- GPIO 13 常ON NMOS 444 d-> GND(5V有LED接5V)
+                         6- GPIO 12 ->NMOS 444 d -> GND(5V有LED接5V) 接蓝牙音频模块  
+```
